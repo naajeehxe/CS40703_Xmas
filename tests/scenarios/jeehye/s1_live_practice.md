@@ -23,6 +23,11 @@ Script. Wait for the previous line before you type. Copy the text exactly.
 
 | # | Who | Where | Type / click |
 |---|---|---|---|
+| Opening (casual, no decisions) | | | |
+| 0a | Jiyeon | team chat | `Hi all! Thanks for coming. Today we need to pick one topic for our team project.` |
+| 0b | Hamza | team chat | `Hi! Ready.` |
+| 0c | Jaewon | team chat | `Hi! I have a few rough ideas, nothing solid yet.` |
+| 0d | Jiyeon | team chat | `No pressure, let's just brainstorm for a bit. Any ideas?` |
 | T1 | | | |
 | 1 | Jeehye | personal agent | `I want to predict how crowded the cafeteria and library are, using campus data. Not sure it is good enough to share.` |
 | 2 | Hamza | personal agent | `Wi-Fi access counts for every building are public data. Keep that in mind.` |
@@ -41,6 +46,8 @@ Script. Wait for the previous line before you type. Copy the text exactly.
 | 11b | Jiyeon | only if no new check after 30 s | **Revise proposal** → `We will predict crowding in the library and the cafeteria only.` → **Ask everyone again** |
 | 12 | everyone | agreement check (version 2) | all pick the library-and-cafeteria option → **Send answer** |
 | 13 | everyone | | moderator: "Decision agreed · Agreed 4/4". Done. |
+
+Before the demo: one intro slide. "Four students, first team meeting, goal: pick one project topic. Jeehye has an idea but is not sure about it. Hamza knows some public campus data."
 
 Notes
 

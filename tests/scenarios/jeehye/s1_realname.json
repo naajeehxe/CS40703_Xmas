@@ -10,6 +10,27 @@
   ],
   "steps": [
     {
+      "title": "Opening · casual greetings and the goal. Expected: no agreement check (an agenda, not a decision).",
+      "do": "group",
+      "user": "Jiyeon",
+      "text": "Hi all! Thanks for coming. Today we need to pick one topic for our team project."
+    },
+    {
+      "do": "group",
+      "user": "Hamza",
+      "text": "Hi! Ready."
+    },
+    {
+      "do": "group",
+      "user": "Jaewon",
+      "text": "Hi! I have a few rough ideas, nothing solid yet."
+    },
+    {
+      "do": "group",
+      "user": "Jiyeon",
+      "text": "No pressure, let's just brainstorm for a bit. Any ideas?"
+    },
+    {
       "title": "T1 · Jeehye and Hamza think privately. Expected: agents reply privately, nothing in the group.",
       "do": "private",
       "user": "Jeehye",
