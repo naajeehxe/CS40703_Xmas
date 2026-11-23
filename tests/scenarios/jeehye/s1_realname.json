@@ -1,0 +1,108 @@
+{
+  "name": "S1 · Demo: four students pick a project topic (Jeehye's perspective)",
+  "goal": "Pick one topic for our team project",
+  "host": "Jiyeon",
+  "participants": [
+    "Jiyeon",
+    "Jaewon",
+    "Jeehye",
+    "Hamza"
+  ],
+  "steps": [
+    {
+      "title": "T1 · Jeehye and Hamza think privately. Expected: agents reply privately, nothing in the group.",
+      "do": "private",
+      "user": "Jeehye",
+      "text": "I want to predict how crowded the cafeteria and library are, using campus data. Not sure it is good enough to share."
+    },
+    {
+      "do": "private",
+      "user": "Hamza",
+      "text": "Wi-Fi access counts for every building are public data. Keep that in mind."
+    },
+    {
+      "title": "T2 · Two similar ideas, then silence. Expected: moderator picks an angle; only Jeehye and Hamza get a share card.",
+      "do": "group",
+      "user": "Jiyeon",
+      "text": "How about a study group matching app?"
+    },
+    {
+      "do": "group",
+      "user": "Jaewon",
+      "text": "A chatbot for club recruiting could work too."
+    },
+    {
+      "do": "wait",
+      "seconds": 65
+    },
+    {
+      "do": "share",
+      "user": "Jeehye",
+      "after": 20,
+      "fallback": "What about predicting how crowded the cafeteria and library are?"
+    },
+    {
+      "do": "share",
+      "user": "Hamza",
+      "after": 15,
+      "fallback": "Wi-Fi access counts could measure that. They are public."
+    },
+    {
+      "title": "T3 · A decision. Expected: check opens; answers split 2/2; moderator posts one anonymous question.",
+      "do": "group",
+      "user": "Jiyeon",
+      "text": "Nice. Let's go with crowding prediction then."
+    },
+    {
+      "do": "answer",
+      "user": "Jiyeon",
+      "prefer": "whole"
+    },
+    {
+      "do": "answer",
+      "user": "Hamza",
+      "prefer": "whole"
+    },
+    {
+      "do": "answer",
+      "user": "Jeehye",
+      "prefer": "library"
+    },
+    {
+      "do": "answer",
+      "user": "Jaewon",
+      "prefer": "library"
+    },
+    {
+      "title": "T3 · The team narrows the scope. The host revises the proposal (version 2). Expected: Agreed 4/4.",
+      "do": "group",
+      "user": "Jiyeon",
+      "text": "OK, let's just do the library and the cafeteria."
+    },
+    {
+      "do": "revise",
+      "user": "Jiyeon",
+      "text": "We will predict crowding in the library and the cafeteria only."
+    },
+    {
+      "do": "answer",
+      "user": "Jiyeon",
+      "prefer": "library"
+    },
+    {
+      "do": "answer",
+      "user": "Hamza",
+      "prefer": "library"
+    },
+    {
+      "do": "answer",
+      "user": "Jeehye",
+      "prefer": "library"
+    },
+    {
+      "do": "answer",
+      "user": "Jaewon",
+      "prefer": "library"
+    }
+  ]
+}
